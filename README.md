@@ -52,14 +52,15 @@ Construction et entraînement d’un modèle séquentiel Keras
 
 ### Dépendances
 tensorflow
-
 numpy
-
 gensim
-
 scikit-learn
-
 pandas
+
+## Résultats attendus
+  ### Word2Vec : Diminution de la perte et similarités sémantiques plausibles (ex: five → four, six, three)
+  
+  ### Classification Yelp : Précision > 90% sur le jeu de test avec les embeddings pré-entraînés
 
 urllib
 
